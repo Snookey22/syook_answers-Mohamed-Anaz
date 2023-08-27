@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const DeliveryVehicle = require('../models/deliveryVehicle');
 
-// Create a new delivery vehicle
+//  This is to Create a new delivery vehicle
 router.post('/', async (req, res) => {
     try {
         const { registrationNumber, vehicleType, city } = req.body;
@@ -15,6 +15,6 @@ router.post('/', async (req, res) => {
     }
 });
 
-// Implement other CRUD routes for delivery vehicles
+// This is for Implement other CRUD routes for delivery vehicles
 
 module.exports = router;
