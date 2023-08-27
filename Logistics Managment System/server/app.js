@@ -2,7 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const app = express();
 
-// Configure middleware, routes, and error handling here
+// This is to Configure middleware, routes, and error handling here
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
