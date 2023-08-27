@@ -15,6 +15,6 @@ router.post('/', async (req, res) => {
     }
 });
 
-// Implement other CRUD routes for items
+
 
 module.exports = router;
